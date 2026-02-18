@@ -57,19 +57,19 @@ Parámetros disponibles: timestamp_start, timestamp_end, received_at_start, rece
 
 📊 Database Schema / Esquema de DatosLa tabla logs cuenta con la siguiente estructura para auditoría:The logs table has the following structure for auditing purposes:
 
-Campo        Tipo        Descripción  
+Campo        |  Tipo        |  Descripción  
 
-id           INTEGER     Clave primaria autoincremental.
+id           |  INTEGER     |  Clave primaria autoincremental.
 
-timestamp    TEXT        Fecha/hora original del evento (generada por el cliente)
+timestamp    |  TEXT        |  Fecha/hora original del evento (generada por el cliente)
 
-received_at  TEXT        Fecha/hora de recepción (generada por el servidor).
+received_at  |  TEXT        |  Fecha/hora de recepción (generada por el servidor).
 
-service      TEXT        Nombre del servicio emisor (Auth, Payment, Meme, etc.).
+service      |  TEXT        |  Nombre del servicio emisor (Auth, Payment, Meme, etc.).
 
-severity     TEXT        Nivel de importancia (INFO, WARNING, CRITICAL, etc.).
+severity     |  TEXT        |  Nivel de importancia (INFO, WARNING, CRITICAL, etc.).
 
-message      TEXT        Descripción detallada del evento.
+message      |  TEXT        |  Descripción detallada del evento.
 
 🔧 Installation & Usage / Instalación y Uso
 
